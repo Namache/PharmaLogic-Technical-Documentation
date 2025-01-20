@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaLogic Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head-box">
+        <img src="https://st4.depositphotos.com/27893600/39296/v/380/depositphotos_392966258-stock-illustration-nature-pharmacy-herbal-medicine-logo.jpg">
+        <h1 id='logo-text'>PharmaLogic</h1>
+    </div>
+    <header>
+        <h1>PharmaLogic 1.0v Technical Documentation</h1>
+        <nav id="navbar">
+            <header>Table of Contents</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#Getting_Started">Getting Started</a></li>
+                <li><a class="nav-link" href="#User_Roles_and_Permissions">User Roles and Permissions</a></li>
+                <li><a class="nav-link" href="#Key_Features">Key Features</a></li>
+                <li><a class="nav-link" href="#Analytics_and_Reporting">Analytics and Reporting</a></li>
+                <li><a class="nav-link" href="#Security_and_Compliance">Security and Compliance</a></li>
+                <li><a class="nav-link" href="#FAQs_and_Troubleshooting">FAQs and Troubleshooting</a></li>
+                <li><a class="nav-link" href="#API_and_Integration">API and Integration</a></li>
+                <li><a class="nav-link" href="#Support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-doc">
+        <section id='Introduction' class="main-section">
+            <header><h1>Introduction</h1></header>
+            <p>Welcome to PharmaLogic, a cutting-edge software designed for clinical and pharmacy management.</p>
+            <p>With advanced features like patient data management and analytics, PharmaLogic ensures seamless workflows.</p>
+            <p> is built to meet the diverse needs of healthcare providers, pharmacies, and clinical researchers. Its intuitive interface and robust backend allow for effective collaboration between teams, ensuring accuracy and efficiency in managing patient care. The platform integrates seamlessly with existing healthcare systems, reducing the need for manual data entry and minimizing errors. Whether you're tracking medication inventories, analyzing patient trends, or generating compliance reports, PharmaLogic empowers you with the tools needed to stay ahead in a fast-paced medical environment.</p>
+            <p>Its compliance with global standards such as HIPAA and GDPR underscores our commitment to data security and patient confidentiality. Additionally, PharmaLogic's cloud-based architecture ensures that your data is accessible, secure, and always backed up, giving you peace of mind and the freedom to focus on delivering exceptional care.</p>
+            
+        </section>
+        <section id='Getting_Started' class="main-section">
+            <header><h1>Getting Started</h1></header>
+            <p><h2>Installation Guide</h2>
+                <ol>
+                  <li>Download the PharmaLogic installation package from the <a href="#download">official website</a>.</li>
+                  <li>Ensure you have <strong>Node.js</strong> and <strong>npm</strong> installed.</li>
+                  <li>Run the following command in your terminal to install dependencies:</li>
+                </ol>
+                <div class="code-box">
+                <pre><code>npm install pharmalogic</code></pre>
+                </div>
+                </p>
+            <p></p>
+        </section>
+        <section id='User_Roles_and_Permissions' class="main-section">
+            <header><h1>User Roles and Permissions</h1></header>
+            <p>PharmaLogic uses a role-based access control system to ensure data security and efficient workflows.</p>
+            <ul>
+                <li><strong>Admin:</strong> Full access to all features, including user management and system settings.</li>
+                <li><strong>Manager:</strong> Access to reporting, inventory, and user assignment tools.</li>
+                <li><strong>Staff:</strong> Limited access to patient records and day-to-day task management.</li>
+                <li><strong>Viewer:</strong> Read-only access to data for auditing purposes.</li>
+            </ul>
+            <p>Roles can be customized based on your organization's needs through the <code>user-management</code> module:</p>
+            <div class="code-box">
+            <pre><code>pharmalogic-user --role customize</code></pre></div>
+        </section>
+        <section id='Key_Features' class="main-section">
+            <header><h1>Key Features</h1></header>
+            <p>PharmaLogic is packed with features that streamline operations, enhance productivity, and improve patient care. Some of the most prominent features include:</p>
+    
+    <ul>
+        <li><strong>Real-time Data Synchronization:</strong> Keep all your patient and inventory data synchronized across multiple devices and platforms, ensuring the most up-to-date information is always available.</li>
+        <li><strong>Advanced Reporting:</strong> Generate detailed, customizable reports on patient demographics, inventory, medication usage, and more. Perfect for clinics and pharmacies that need to track performance and meet regulatory requirements.</li>
+        <li><strong>Seamless Integration:</strong> Easily integrate PharmaLogic with existing healthcare and pharmacy management systems, including EMR, EHR, and inventory systems, to create a unified workflow.</li>
+        <li><strong>Secure Messaging:</strong> Securely communicate with other team members using built-in messaging functionality, ensuring that sensitive patient information is shared in compliance with HIPAA and other regulations.</li>
+        <li><strong>Automatic Updates:</strong> PharmaLogic automatically checks for software updates and applies them seamlessly, so you're always working with the latest features and security patches.</li>
+        <li><strong>Customizable User Interface:</strong> Customize the layout and appearance of the interface to suit your specific needs, whether you're managing a small pharmacy or a large clinical research team.</li>
+        <li><strong>Audit Logs:</strong> Track and monitor all user activities within the platform, ensuring compliance and providing a transparent audit trail for accountability.</li>
+    </ul>
+
+    <h2>Additional Key Features:</h2>
+    <ul>
+        <li><strong>Mobile App:</strong> Access PharmaLogic on the go with the mobile app for iOS and Android. Stay connected and manage patient data from anywhere.</li>
+        <li><strong>Multi-Language Support:</strong> PharmaLogic supports multiple languages, allowing international teams to collaborate without language barriers.</li>
+        <li><strong>AI-Powered Recommendations:</strong> PharmaLogic's AI engine can provide recommendations based on patient history, medication trends, and inventory data, helping healthcare providers make informed decisions faster.</li>
+        <li><strong>Real-Time Notifications:</strong> Stay informed with real-time notifications about inventory levels, patient status, and upcoming tasks. Get alerted when action is required, ensuring that critical tasks are never overlooked.</li>
+    </ul>
+
+    <p>These key features, combined with PharmaLogic’s powerful infrastructure and user-friendly interface, make it the ideal solution for clinical and pharmacy management.</p>
+        </section>
+        <section id='Analytics_and_Reporting' class="main-section">
+            <header><h1>Analytics and Reporting</h1></header>
+            <p>Track inventory and patient trends through real-time analytics.</p>
+            <p>Generate detailed reports using the <code>report-generator</code> module:</p>
+            <div class="code-box">
+            <pre><code>pharmalogic-report --generate</code></pre></div>
+        </section>
+        <section id='Security_and_Compliance' class="main-section">
+            <header><h1>Security and Compliance</h1></header>
+            <p>PharmaLogic complies with major data protection laws like HIPAA and GDPR.</p>
+            <p>Patient data endpoints use secure HTTPS protocols:</p>
+            <div class="code-box">
+            <pre><code>GET /api/v1/patients/{id}\nAuthorization: Bearer <token></code></pre></div>
+
+            <p>Use the following endpoint to fetch patient data:</p>
+            <div class="code-box">
+                <pre><code>GET /api/v1/patients/{patientId}
+                            Headers:
+                            Authorization: Bearer <token>
+                            Response:
+                            {
+                                "id": 12345,
+                                "name": "John Doe",
+                                "age": 32,
+                                "medications": ["Aspirin", "Metformin"]
+                            }
+</code></pre></div>
+            <p></p>
+        </section>
+        <section id='FAQs_and_Troubleshooting' class="main-section">
+            <header><h1>FAQs and Troubleshooting</h1></header>
+            <h2>Common Issues and Solutions</h2>
+
+    <p><strong>Q: How do I reset my password?</strong></p>
+    <p>A: To reset your password, click on the <strong>Forgot Password</strong> link on the login page. You'll be prompted to enter your email address, and a password reset link will be sent to your inbox.</p>
+
+    <p><strong>Q: Why am I getting a 500 server error?</strong></p>
+    <p>A: A 500 server error indicates an issue with the PharmaLogic server. Please check our <a href="#status-page">status page</a> for updates. If the issue persists, contact support at <a href="mailto:support@pharmalogic.com">support@pharmalogic.com</a>.</p>
+
+    <p><strong>Q: How can I import patient data into PharmaLogic?</strong></p>
+    <p>A: PharmaLogic supports importing data in CSV format. To upload patient records, navigate to the <strong>Data Import</strong> section in the admin panel, select the CSV file, and follow the on-screen instructions.</p>
+
+    <p><strong>Q: How can I integrate PharmaLogic with my existing EMR system?</strong></p>
+    <p>A: You can use the PharmaLogic API to integrate with your existing Electronic Medical Records (EMR) system. Refer to the <a href="#API_and_Integration">API and Integration</a> section for detailed documentation on the available endpoints and authentication methods.</p>
+
+    <p><strong>Q: How do I update the software?</strong></p>
+    <p>A: To update PharmaLogic to the latest version, navigate to the <strong>System Settings</strong> page and click on the <strong>Check for Updates</strong> button. If an update is available, follow the on-screen instructions to install it.</p>
+
+    <h2>Additional Resources</h2>
+    <p>If you need more assistance, please refer to our <a href="#help-center">Help Center</a> or contact support for personalized troubleshooting.</p>
+            <p>PharmaLogic provides a robust REST API for seamless integration with third-party systems.</p>
+            <p>Example API call to fetch inventory data:</p>
+            <div class="code-box">
+            <pre><code>GET /api/v1/inventory
+Headers:
+Authorization: Bearer <token>
+Response:
+{
+    "items": [
+        {"id": 1, "name": "Aspirin", "quantity": 100},
+        {"id": 2, "name": "Metformin", "quantity": 50}
+    ]
+}</code></pre></div>
+        </section>
+        <section id='API_and_Integration' class="main-section">
+            <header><h1>API and Integration</h1></header>
+            <p>PharmaLogic offers an extensive API that facilitates seamless integration with external systems, enhancing its flexibility and scalability. The API is designed to be RESTful, providing you with simple and efficient methods to interact with the data in the PharmaLogic platform.</p>
+    
+    <h2>API Endpoints</h2>
+    <p>Below are the key API endpoints available:</p>
+    <ul>
+        <li><strong>/api/v1/patients/{id}</strong>: Fetches detailed patient information by ID.</li>
+        <li><strong>/api/v1/inventory</strong>: Retrieves current inventory data.</li>
+        <li><strong>/api/v1/reports</strong>: Generates customizable reports based on specific filters.</li>
+        <li><strong>/api/v1/medications/{id}</strong>: Retrieves information about specific medications.</li>
+    </ul>
+
+    <h2>Example Usage</h2>
+    <p>Example API call to fetch patient data:</p>
+    <div class="code-box">
+        <pre><code>GET /api/v1/patients/{patientId}
+Authorization: Bearer <token>
+Response:
+{
+    "id": 12345,
+    "name": "Jane Doe",
+    "age": 29,
+    "medications": ["Ibuprofen", "Amlodipine"],
+    "medicalHistory": ["Allergic to penicillin"]
+}</code></pre>
+    </div>
+
+    <h2>API Authentication</h2>
+    <p>All API requests require authentication using a Bearer token. You can obtain a token by logging into your PharmaLogic account and using the <code>/auth/token</code> endpoint to generate a new token.</p>
+    <div class="code-box">
+        <pre><code>POST /api/v1/auth/token
+Request Body:
+{
+    "username": "admin",
+    "password": "securepassword"
+}
+Response:
+{
+    "access_token": "<token>"
+}</code></pre>
+    </div>
+    
+    <p>For integration with third-party systems, we provide SDKs for various programming languages, including Python, Java, and JavaScript.</p>
+</section>
+        </section>
+        <section id='Support' class="main-section">
+            <header><h1>Support</h1></header>
+            <p>For assistance, contact our 24/7 support team at <a href="mailto:support@pharmalogic.com">support@pharmalogic.com</a>.</p>
+            <p>Visit our <a href="#help-center">Help Center</a> for detailed documentation and tutorials.</p>
+        </section>
+        
+        
+        
+
+
+    </main>
+    
+</body>
+</html>
